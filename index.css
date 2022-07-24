@@ -1,7 +1,18 @@
-#testataLink{
-    text-align: right;
-
-},
-html{
-    background-color: "black";
+body {
+    font-size: 19px;
+}
+.footer{
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #212529;
+    color: #f2f2f2;
+}
+.footer a{
+    color: #f2f2f2;
+    display: block;
+    padding: 0 65px 0 0;
+    text-decoration: none;
+    width:100%;
+    text-align:center;
 }
