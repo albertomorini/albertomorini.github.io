@@ -4,20 +4,26 @@
         <meta charset="utf-8">
         <title>Dr. Alberto Morini</title>
 
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
         <!--Bootstrap-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-        <link rel="stylesheet" href="index.css">
+        <!--animate -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <!-- jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
         <script src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
 
-        <link rel="shortcut icon" href="img/favicon_drManhattan.jpeg">
-
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="img/favicon_kalel.png">
 
     </head>
     <body>
@@ -51,22 +57,42 @@
 
         </div>
 
-        <h3 class="animated rotateIn" style="text-align: center">Hellooo </h3>
+        <h3 class="animate__animated animate__backInLeft" id="hello">Hello everyone!</h3>
 
         <div class="container">
             <div class="contactme" id="info">
-                Born in June of 1999, doctor in Internet Of Things, Big Data & Web at University of Udine (class L-31).
-                <br>Cinema enthusiast, coffee lover and HipHop expert. Nerd on my free time, fitness lover 24/7.
-                <br>
-                <a href="docs/cv_AlbertoMorini-eng.pdf">Download my CV</a>
-                <a href="docs/cv_AlbertoMorini-eng.pdf">Italian version</a>
-                <br>
 
-                <b>Languages</b>: IT/EN
+                ♊️ Born in June of 1999 <br>
+                🎓 Doctor in Internet Of Things, Big Data & Web at University of Udine (class L-31) <br>
+                🎬 Cinema enthusiast <br>
+                ☕️ Coffee lover <br>
+                💿 HipHop expert <br>
+                💻 Nerd on my free time <br>
+                🏓 Fitness lover 24/7  <br>
+                <!--📰 DC comics reader-->
+            </div>
 
-                <br>
-                <br>
-                <b>Computer Science favourite topics (w/ experiences)</b>:
+            <nav class="container" id="cv">
+
+                        <button type="button" class="btn btn-dark btn-lg">
+                            <a class="linkCV" href="docs/cv_AlbertoMorini-eng.pdf">
+                                🇬🇧 View my CV
+                            </a>
+                        </button>
+                        <br>
+
+                        <button type="button" class="btn btn-dark btn-lg">
+                            <a class="linkCV" href="docs/cv_AlbertoMorini.pdf">
+                                🇮🇹 Guarda il mio CV <a>
+                        </button>
+
+
+
+            </nav>
+
+
+            <div>
+                <b>IT favourite topics (w/ experiences)</b>:
                     <ul>
                         <li>Full-stack (NodeJS, ReactJS/ReactNative, Apache Cordova)</li>
                         <li>Data science (R, Python)</li>
@@ -76,26 +102,34 @@
                         <li>Self-host software (PLEX, Jellyfin, NextCloud, Sonarr)</li>
                         <li>SQL (mySql, Postgresql)</li>
                     </ul>
-
-
-
-
-
-
-
             </div>
-            <div class="blog" id="contactme">
 
+            <div class="contactme" id="contactme">
+
+                <ul>
+                    <li>
+
+                        <a href="https://t.me/albertomorini" class="linkContact">💬 Telegram</a>
+                    </li>
+                    <li>
+                        <a href="mailto:99morini@gmail.com?subject=Hey!" class="linkContact">📨 Email me</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/albertomorini" class="linkContact"><i class="icon-github"></i> Github</a>
+                    </li>
+                </ul>
             </div>
 
         </div>
 
 
-        <footer class="footer">
+        <footer id="footer">
             Made with Bootstrap, Javascript and <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
             </svg> by Alberto Morini.
 
         </footer>
+        <script src="index.js"></script>
+
     </body>
 </html>

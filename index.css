@@ -1,14 +1,15 @@
 body {
-    font-size: 19px;
+    font-size: 20px;
 }
-.footer{
+#footer{
+    position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;
     background-color: #212529;
     color: #f2f2f2;
 }
-.footer a{
+#footer a{
     color: #f2f2f2;
     display: block;
     padding: 0 65px 0 0;
@@ -17,6 +18,30 @@ body {
     text-align:center;
 }
 #hello{
+    text-align: center;
+    padding: 20px;
+}
+#cv{
+    margin: 20px;
+}
+.linkCV{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.linkCV:hover{
+    font-size: 2em;
+}
+.linkContact{
+    text-decoration: none;
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+}
+.linkContact:hover{
+    font-size: 2em;
+}
 
-  transition: width 2s, height 4s;
+#contactme{
+    margin-bottom: 90px
 }
