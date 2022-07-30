@@ -30,7 +30,7 @@ body {
     font-size: 22px;
 }
 .linkCV:hover{
-    font-size: 2em;
+    color: green;
 }
 .linkContact{
     text-decoration: none;
@@ -40,8 +40,13 @@ body {
 }
 .linkContact:hover{
     font-size: 2em;
+    color: green;
 }
 
 #contactme{
-    margin-bottom: 90px
+    margin-bottom: 90px;
+}
+button{
+    margin-bottom: 20px;
+
 }
