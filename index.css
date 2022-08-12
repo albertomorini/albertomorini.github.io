@@ -46,7 +46,8 @@ body {
 #contactme{
     margin-bottom: 90px;
 }
-button{
+#cv button{
     margin-bottom: 20px;
+    width: 260px;
 
 }
