@@ -24,7 +24,6 @@
         <link rel="stylesheet" type="text/css" href="index.css">
 
         <link rel="shortcut icon" href="img/favicon_kalel.png">
-
     </head>
     <body>
 
@@ -57,8 +56,12 @@
 
         </div>
 
-        <h3 class="animate__animated animate__backInLeft" id="hello">Hello everyone!</h3>
+        <div>
+            <img src="./img/batmanInvincible.JPG" alt="me" id="avatar"/>
+        </div>
 
+        <h3 class="animate__animated animate__zoomInDown" id="hello">Hello everyone!</h3>
+      
         <div class="container">
             <div class="contactme" id="info">
 
@@ -69,16 +72,17 @@
                 💿 HipHop expert <br>
                 💻 Nerd on my free time <br>
                 🏓 Fitness lover 24/7  <br>
-                <!--📰 DC comics reader-->
+                📰 DC comics reader
             </div>
             <hr>
             <h3 class="animate__animated animate__backInRight" style="text-align: center">Work stuff</h3>
-            <nav id="cv">
-                        <button type="button" class="btn btn-dark btn-lg">
-                            <a class="linkCV" href="docs/cv_AlbertoMorini-eng.pdf">
-                                🇬🇧 View my CV
-                            </a>
-                        </button>
+            
+            <nav class="center">
+                            <button type="button" class="btn btn-dark btn-lg">
+                                <a class="linkCV" href="docs/cv_AlbertoMorini-eng.pdf">
+                                    🇬🇧 View my CV
+                                </a>
+                            </button>
                         <button type="button" class="btn btn-dark btn-lg">
                             <a class="linkCV" href="docs/cv_AlbertoMorini.pdf">
                                 🇮🇹 Guarda il mio CV <a>
@@ -89,21 +93,32 @@
             <div>
                 <b>IT favourite topics (w/ experiences)</b>:
                     <ul>
-                        <li>Full-stack (NodeJS, ReactJS/ReactNative, Apache Cordova)</li>
+                        <li>Software developing</li>
+                        <ul>
+                            <li>Full-stack (NodeJs, ReactJS/ReactNative, Cordova, IonicFramework)</li>
+                            <li>Web Serivices (SOAP/REST)</li>
+                            <li>Single app/script (Python) </li>
+                        </ul>
+                        <li>Automation scripts (Python, shell, bash)</li>
                         <li>Data science (R, Python)</li>
-                        <li>Web Serivices (SOAP/REST)</li>
                         <li>Unix (MacOS, Linux)</li>
                         <li>Networking and cybersecurity (Wireshark, PiHole)</li>
                         <li>Self-host software (PLEX, Jellyfin, NextCloud, Sonarr)</li>
-                        <li>SQL (mySql, Postgresql)</li>
                     </ul>
+                <b>Also know</b>:
+                <ul>
+                    <li>SQL (mySql, Postgresql,SQLServer)</li>
+                    <li>MongoDB</li>
+                    <li>C#</li>
+                    <li>OPC-UA</li>
+                </ul>
+                <p>take a look on my cv for other info</p>
             </div>
             <hr>
             <div class="contactme" id="contactme">
-                <h3 class="animate__animated animate__zoomInDown" style="text-align: center">Contact me</h3>
+                <h3 class="animate__animated animate__backInLeft" style="text-align: center">Contact me</h3>
                 <ul>
                     <li>
-
                         <a href="https://t.me/albertomorini" class="linkContact">💬 Telegram</a>
                     </li>
                     <li>
@@ -118,12 +133,7 @@
         </div>
 
 
-        <footer id="footer">
-            Made with Bootstrap, Javascript and <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-            </svg> by Alberto Morini.
-
-        </footer>
+        
         <script src="index.js"></script>
 
     </body>

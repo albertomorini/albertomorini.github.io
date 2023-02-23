@@ -46,7 +46,18 @@ body {
 #contactme{
     margin-bottom: 90px;
 }
-button{
+#cv button{
     margin-bottom: 20px;
+    width: 260px;
 
+}
+
+#avatar{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
