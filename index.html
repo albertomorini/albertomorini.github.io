@@ -25,12 +25,28 @@
 
         <link rel="shortcut icon" href="img/favicon_kalel.png">
     </head>
-    <body>
+    <body id="body">
         <script>
-        setTimeout(()=>{
+            setTimeout(()=>{
                 $("#hello").html("Dr. Alberto Morini")
-
             },2500);
+            window.onload = () => { //wait to load
+                let d = new Date()
+                if (d.getHours() > 20) { //dark mode
+                    document.getElementById("body").style.backgroundColor = "#1c1c1c";
+                    document.getElementById("body").style.color = "white";
+
+                    let linkCV = document.getElementsByClassName("linkCV")
+                    Object.keys(linkCV).map(elemNr=>{
+                        linkCV[elemNr].classList.add("linkCVnight");
+                    })
+                    //remove the old class on another cicle to avoid to modify our array of linkcv
+                    Object.keys(linkCV).map(elemNr=>{
+                        linkCV[elemNr].classList.remove("linkCV");
+                    })
+
+                }
+            }
         </script>
 <!--
 
@@ -148,10 +164,6 @@
             <hr>
             
         </div>
-
-
-        
-        <script src="index.js"></script>
 
     </body>
 </html>

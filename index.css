@@ -7,6 +7,9 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+
+/*CURRICULUM*/
 #cv{
     margin: 20px;
 }
@@ -15,9 +18,20 @@ body {
     text-decoration: none;
     font-size: 22px;
 }
+
 .linkCV:hover{
     color: #db523f;
 }
+.linkCVnight {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.linkCVnight:hover{
+    color: #db523f;
+}
+
+/*CONTACTS*/
 .linkContact{
     text-decoration: none;
     font-size: 22px;
@@ -27,6 +41,11 @@ body {
 .linkContact:hover{
     color: #db523f;
 }
+
+
+
+
+
 
 #contactmeList{
     width: 100%;
