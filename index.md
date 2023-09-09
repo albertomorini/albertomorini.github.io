@@ -1,25 +1,16 @@
 # Dr. Alberto Morini
 
-Born in June of 1999, doctor in Internet Of Things, Big Data & Web at University of Udine (class L-31). <br>
-Cinema enthusiast, coffee lover and HipHop expert.
-Nerd on my free time, fitness lover 24/7.
+Born in June of 1999
 
-<a href='https://albertomorini.github.io/docs/cv_AlbertoMorini-eng.pdf'> Download my CV</a>
-<a href='https://albertomorini.github.io/docs/cv_AlbertoMorini.pdf'> Scarica il mio CV</a>
+- Fullstack developer
+- Software architect and analyst
+- Software integrator (with PLCs, stand alone app)
+- CRM/ERP developer and consultant 
 
+In my private life, I've got a tons of hobbies, like fitness, R&B/Hip-Hop music, cinema and bricolage.
+I'm a very positive and energy person, which love the rain and grey days.
 
-## Knowledges:
-
-**Languages**: IT/EN
-
-**Computer Science favourite topics** *(w/ experiences)*:
-- Full-stack *(NodeJS, ReactJS/ReactNative, Apache Cordova)*
-- Data science *(R, Python)*
-- Web Serivices *(SOAP/REST)*
-- Unix *(MacOS, Linux)*
-- Networking and cybersecurity *(Wireshark, PiHole)*
-- Self-host software *(PLEX, Jellyfin, NextCloud, Sonarr)*
-- SQL *(mySql, Postgresql)*
+<a href='https://albertomorini.github.io/docs/cv_AlbertoMorini.pdf'> VIEW MY CV</a>
 
 
 ## Contact me
