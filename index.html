@@ -1,128 +1,141 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Dr. Alberto Morini</title>
 
-        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <title>Dr. Alberto Morini</title>
 
-        <!--Bootstrap-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
-        <!--animate -->
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
-        <!-- jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 
-        <link rel="shortcut icon" href="img/favicon_kalel.png">
-    </head>
-    <body id="body">
-        <script>
-            setTimeout(()=>{
-                $("#hello").html("Dr. Alberto Morini")
-            },2500);
-            window.onload = () => { //wait to load
-                let d = new Date()
-                if (d.getHours() > 20) { //dark mode
-                    document.getElementById("body").style.backgroundColor = "#1c1c1c";
-                    document.getElementById("body").style.color = "white";
+    <link rel="shortcut icon" href="img/favicon_kalel.png">
+</head>
 
-                    let linkCV = document.getElementsByClassName("linkCV")
-                    Object.keys(linkCV).map(elemNr=>{
-                        linkCV[elemNr].classList.add("linkCVnight");
-                    })
-                    //remove the old class on another cicle to avoid to modify our array of linkcv
-                    Object.keys(linkCV).map(elemNr=>{
-                        linkCV[elemNr].classList.remove("linkCV");
-                    })
+<body id="body">
+    <script>
+        setTimeout(() => {
+            $("#hello").html("Dr. Alberto Morini")
+        }, 2500);
+        window.onload = () => { //wait to load
+            let d = new Date()
+            if (d.getHours() > 20) { //dark mode
+                document.getElementById("body").style.backgroundColor = "#1c1c1c";
+                document.getElementById("body").style.color = "white";
 
-                }
+                let linkCV = document.getElementsByClassName("linkCV")
+                Object.keys(linkCV).map(elemNr => {
+                    linkCV[elemNr].classList.add("linkCVnight");
+                })
+                //remove the old class on another cicle to avoid to modify our array of linkcv
+                Object.keys(linkCV).map(elemNr => {
+                    linkCV[elemNr].classList.remove("linkCV");
+                })
+
             }
-        </script>
-        <hr>
+        }
+    </script>
+    <hr>
 
-        <div>
-            <img src="./img/batmanInvincible.JPG" alt="me" id="avatar" />
+    <div>
+        <img class="animate__animated animate__pulse" src="./img/batmanInvincible.JPG" alt="me" id="avatar" />
 
         <h3 class="animate__animated animate__zoomInDown" id="hello">Hey everyone!</h3>
-            <div id="contactme">
-                <ul id="contactmeList">
-                    <li>
-                        <button class="btn btn-dark">
-                            <a href="https://t.me/albertomorini" class="linkContact">
-                                <i class="icon-phone"></i>
-                            </a>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="btn btn-dark">
-                            <a href="mailto:99morini@gmail.com?subject=Hey!" class="linkContact">
-                                <i class="icon-envelope"></i>
-                            </a>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="btn btn-dark">
-                            <a href="https://github.com/albertomorini" class="linkContact">
-                                <i class="icon-github"></i>
-                             </a>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="btn btn-dark">
-                            <a href="https://it.linkedin.com/in/alberto-morini-283847231" class="linkContact">
-                                <i class="icon-linkedin"></i>
-                             </a>
-                        </button>
-                    </li>
-                </ul>
-            </div>
+        <div id="contactme">
+            <ul id="contactmeList">
+                <li>
+                    <button class="btn btn-dark">
+                        <a href="https://t.me/albertomorini" class="linkContact">
+                            <i class="icon-phone"></i>
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-dark">
+                        <a href="mailto:99morini@gmail.com?subject=Hey!" class="linkContact">
+                            <i class="icon-envelope"></i>
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-dark">
+                        <a href="https://github.com/albertomorini" class="linkContact">
+                            <i class="icon-github"></i>
+                        </a>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-dark">
+                        <a href="https://it.linkedin.com/in/alberto-morini-283847231" class="linkContact">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                    </button>
+                </li>
+            </ul>
         </div>
-        <div class="container">
-            <hr>
-            <h3 class="animate__animated animate__backInLeft" style="text-align: center">Who Am I?</h3>
+    </div>
+    <div class="container">
+        <hr>
+        <h3 class="animate__animated animate__backInLeft" style="text-align: center">Who Am I?</h3>
 
-            <div class="contactme" id="info">
+        <div class="contactme" id="info">
 
-                <b>Born in June of 1999</b>
+            Born in June of 1999
+
+            <ul>
+                <li><b>Bachelor degree</b> in Internet of things, Big data & Web at University of Udin (ITA)</li>
+                <li><b>Current:</b> Master degree in Computer Science at University of Pauda (ITA)</li>
+                <li><b>Current:</b> Working in IT see below</li>
+            </ul>
+            <p class="personal">
+                In my <b>private life</b>, I've got a tons of hobbies, like fitness, R&B/Hip-Hop music, cinema and
+                bricolage.<br/>
+                I'm a very positive and energy person, which love the rain and grey days.
+            </p>
+
+        </div>
+        <h3 id="techStuff" class="animate__animated animate__backInRight" style="text-align: center">Tech stuff:</h3>
+
+        <div>
+            <ul>
+                <li><b>Fullstack developer</b></li>
                 <ul>
-                    <li><b>Fullstack developer</b></li>
-                        <ul>
-                            <li>React, ReactNative, Ionic, Android native</li>
-                            <li>NodeJS, Python</li>
-                            <li>SQL, MySQL, Postgress, MongoDB</li>
-                        </ul>
-                    <li><b>Software architect and analyst</b></li>
-                    <li><b>CRM/ERP developer and consultant</b></li>
-                    <li><b>Software integrator </b></li>
-                        <ul>
-                            <li>PLCs (OPCUA, WebApi)</li>
-                            <li>QlikSense and other software</li>
-                            <li>ERPs, CRM and whole Enterprise stuff</li>
-                        </ul>
+                    <li>React, ReactNative, Ionic, Android native</li>
+                    <li>NodeJS, Python</li>
+                    <li>SQL, MySQL, Postgress, MongoDB</li>
                 </ul>
-                <p class="personal">
-                    In my <b>private life</b>, I've got a tons of hobbies, like fitness, R&B/Hip-Hop music, cinema and bricolage.
-                    I'm a very positive and energy person, which love the rain and grey days.
-                </p>
-            </div>
-            <hr>
-                <a class="linkCV" href="docs/cv_AlbertoMorini.pdf">
-                    VIEW MY CV
-                </a>
-                
-           
-            <hr>
-            
-        </div>
+                <li><b>Software architect and analyst</b></li>
+                <li><b>CRM/ERP developer and consultant</b></li>
+                <li><b>Software integrator </b></li>
+                <ul>
+                    <li>PLCs (OPCUA, WebApi)</li>
+                    <li>QlikSense and other software</li>
+                    <li>ERPs, CRM and whole Enterprise stuff</li>
+                </ul>
+            </ul>
 
-    </body>
+        </div>
+        <hr>
+        <a class="linkCV" href="docs/cv_AlbertoMorini.pdf">
+            VIEW MY CV
+        </a>
+
+
+        <hr>
+
+    </div>
+
+</body>
+
 </html>
