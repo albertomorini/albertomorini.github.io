@@ -12,6 +12,18 @@
         "link": "https://github.com/albertomorini/GeoMedia"
     },
     {
+        "title": "Walletter",
+        "description": "A very simple personal finance tool",
+        "languages": [
+            "node",
+            "ionic",
+            "react",
+            "mongo"
+        ],
+        "image": "/assets/projects/Walletter.png",
+        "link": "https://github.com/albertomorini/Walletter"
+    },
+    {
         "title": "uTubePy",
         "description": "A full HD youtube downloader ",
         "languages": [
