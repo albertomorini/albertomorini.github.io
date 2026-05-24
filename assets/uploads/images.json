@@ -45,54 +45,234 @@
     "file": "dex_eyes.jpg",
     "title": "Dexter eyes",
     "date": "2025-12-15",
-    "location": "Home"
+    "location": "Home, Italy"
   },
   {
     "file": "me_dex.jpg",
     "title": "Dex's favourite place",
     "date": "2025-08-27",
-    "location": "Home"
+    "location": "Home, Italy"
   },
   {
     "file": "caglieron.jpg",
     "title": "Adventure day",
     "date": "2025-08-09",
-    "location": "Grotte del Caglieron, Fregona"
-  }
-  ,{
+    "location": "Grotte del Caglieron, Italy"
+  },
+  {
     "file": "rovereto.jpg",
     "title": "Rovereto's Museum with Chiara",
     "date": "2025-05-02",
-    "location": "Rovereto"
-  }
-  ,{
+    "location": "Rovereto, Italy"
+  },
+  {
     "file": "setup_2025_oct.jpg",
     "title": "Workspace Oct 2025 ",
     "date": "2025-10-11",
-    "location": "Home"
-  }
-  ,{
+    "location": "Home, Italy"
+  },
+  {
     "file": "setup_2026_march.jpg",
     "title": "Workspace March 2026 ",
     "date": "2026-03-11",
-    "location": "Home"
-  }
-  ,{
+    "location": "Home, Italy"
+  },
+  {
     "file": "sir_dex.jpg",
     "title": "Sir Dexter",
     "date": "2025-11-11",
-    "location": "Home"
-  }
-  ,{
+    "location": "Home, Italy"
+  },
+  {
     "file": "turin.jpg",
     "title": "Turin with my love",
     "date": "2025-12-08",
-    "location": "Turin"
-  }
-  ,{
+    "location": "Turin, Italy"
+  },
+  {
     "file": "verona.JPG",
     "title": "Looking around",
     "date": "2025-05-01",
-    "location": "Verona"
+    "location": "Verona, Italy"
+  },
+  {
+    "file": "fixed.JPG",
+    "title": "My bike",
+    "date": "2018-09-21",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "toyota_old_sunset.JPG",
+    "title": "Sunset in ''my'' old Toyota",
+    "date": "2017-10-31",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "setup_2017_may.JPG",
+    "title": "First setup",
+    "date": "2017-05-03",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "setupDicembre2015.jpg",
+    "title": "Where everything has started (coding for the first time)",
+    "date": "2015-12-03",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "me_batman_2009.jpg",
+    "title": "Fight me, I guess?",
+    "date": "2009-02-23",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "biking_2020.jpeg",
+    "title": "I'm biking",
+    "date": "2020-11-23",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "castello_vescovo_2021.jpeg",
+    "title": "Castello del Vescovo w/ Mac Miller in the headphones",
+    "date": "2021-03-23",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "piadina_2022.jpeg",
+    "title": "That's a good re-start",
+    "date": "2022-08-23",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "marseille_sea.jpg",
+    "title": "Sunset in Marseille",
+    "date": "2025-08-15",
+    "location": "Marseille, France"
+  },
+  {
+    "file": "deep_night_biking2025.jpg",
+    "title": "Deep night biking",
+    "date": "2025-08-09",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "myloves_2025.jpg",
+    "title": "My loved ones",
+    "date": "2025-08-19",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "centre_marseille.jpg",
+    "title": "In Marseille",
+    "date": "2025-08-13",
+    "location": "Marseille, France"
+  },
+  {
+    "file": "me_planets_2025.JPG",
+    "title": "In Marseille",
+    "date": "2025-05-02",
+    "location": "Rovereto, Italy"
+  },
+  {
+    "file": "speaker_2025.jpg",
+    "title": "New speakers",
+    "date": "2025-05-12",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "3dprinter_1.jpg",
+    "title": "Something new!",
+    "date": "2025-07-22",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "me_chiara_dinner_202508.jpg",
+    "title": "With my beautiful girlfriend",
+    "date": "2025-07-22",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "alla_loggia_sanvalentino2026.jpg",
+    "title": "San Valentine with my girl",
+    "date": "2026-02-14",
+    "location": "Alla Loggia, Italy"
+  },
+  {
+    "file": "pocket_dump_2026_apr.jpeg",
+    "title": "Pocket dump, April 2026",
+    "date": "2026-04-14",
+    "location": "Alla Loggia, Italy"
+  },
+  {
+    "file": "vv_may_2026_fog.jpg",
+    "title": "Foggy day",
+    "date": "2026-05-14",
+    "location": "Alla Loggia, Italy"
+  },
+  {
+    "file": "2023_late_night_study.jpg",
+    "title": "Late night study",
+    "date": "2024-01-05",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "gym_2023.jpg",
+    "title": "Gym time",
+    "date": "2023-10-04",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "heart_me_chiara.jpg",
+    "title": "In winter with my love",
+    "date": "2024-12-27",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "home_2023.jpg",
+    "title": "Room",
+    "date": "2023-03-20",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "me_toyota2024.jpg",
+    "title": "In my Toyota",
+    "date": "2024-05-10",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "molly.jpg",
+    "title": "My mollyy",
+    "date": "2024-04-21",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "night_2024_wtchiara.jpg",
+    "title": "Night lights",
+    "date": "2024-06-03",
+    "location": "Vittorio Veneto, Italy"
+  },
+  {
+    "file": "nike_2024.jpg",
+    "title": "Nikes on my feet make my life complete",
+    "date": "2024-05-16",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "pizzoc_2024.jpg",
+    "title": "Pizzoc with Chiara",
+    "date": "2024-08-29",
+    "location": "Pizzoc, Italy"
+  },
+  {
+    "file": "road_to_mantua.jpg",
+    "title": "",
+    "date": "2024-10-11",
+    "location": "Mantua, Italy"
+  },
+  {
+    "file": "setup_2024_june.jpg",
+    "title": "Studio matto e disperato",
+    "date": "2024-06-11",
+    "location": "Home, Italy"
   }
 ]
