@@ -1,0 +1,60 @@
+[
+    {
+        "title": "GeoMedia",
+        "description": "A social network, with an Android mobile app and HTTPS server, working with ReactNative,GPS, GoogleMaps, FastAPI (server side)",
+        "languages": [
+            "react",
+            "fastapi",
+            "python",
+            "sql"
+        ],
+        "image": "/assets/projects/geomedia.png",
+        "link": "https://github.com/albertomorini/GeoMedia"
+    },
+    {
+        "title": "uTubePy",
+        "description": "A full HD youtube downloader ",
+        "languages": [
+            "python",
+            "youtube"
+        ],
+        "image": "/assets/projects/utubepy.png",
+        "link": "https://github.com/albertomorini/uTubePy"
+    },
+   
+    {
+        "title": "Glyrics",
+        "description": "A lyrics injector to your songs ",
+        "languages": [
+            "python",
+            "genius",
+            "restapi"
+        ],
+        "image": "/assets/projects/glyrics.gif",
+        "link": "https://github.com/albertomorini/glyrics"
+    },
+   
+    {
+        "title": "Byce",
+        "description": "An IoT Project for monitor Androids battery status",
+        "languages": [
+            "cordova",
+            "node",
+            "postgresql",
+            "restapi"
+        ],
+        "image": "/assets/projects/Byce.png",
+        "link": "https://github.com/albertomorini/Byce"
+    },
+    {
+        "title": "Data Science - police brutality (USA)",
+        "description": "Project of the course Data Science ",
+        "languages": [
+            "dataanalysis",
+            "r",
+            "csv"
+        ],
+        "image": "/assets/projects/PoliceBrutality.png",
+        "link": "https://github.com/albertomorini/policesViolence"
+    }
+]
