@@ -253,7 +253,7 @@
   },
   {
     "file": "nike_2024.jpg",
-    "title": "Nikes on my feet make my life complete",
+    "title": "And the Nikes on my feet keep my cypher complete",
     "date": "2024-05-16",
     "location": "Home, Italy"
   },
@@ -274,5 +274,36 @@
     "title": "Studio matto e disperato",
     "date": "2024-06-11",
     "location": "Home, Italy"
-  }
+  },
+  {
+    "file": "lipari_chiara1.jpg",
+    "title": "With my beautiful girlfriend, in Lipari",
+    "date": "2026-06-02",
+    "location": "Lipari, Isole Eolie, Italy"
+  },
+  {
+    "file": "lipari_chiarasunset.jpg",
+    "title": "Sunset time",
+    "date": "2026-06-02",
+    "location": "Lipari, Isole Eolie, Italy"
+  },
+  {
+    "file": "lipari_dinner.jpg",
+    "title": "Calamari time",
+    "date": "2026-06-02",
+    "location": "Lipari, Isole Eolie, Italy"
+  },
+  {
+    "file": "lipari_smemorino.jpg",
+    "title": "Burm brum",
+    "date": "2026-06-01",
+    "location": "Lipari, Isole Eolie, Italy"
+  },
+  {
+    "file": "lipari_vulcano.jpg",
+    "title": "On a Vulcano",
+    "date": "2026-06-01",
+    "location": "Vulcano, Isole Eolie, Italy"
+  },
+
 ]
