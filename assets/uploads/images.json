@@ -346,5 +346,41 @@
     "title": "Dex cuteness over 10000",
     "date": "2026-07-21",
     "location": "Home, Italy"
-  } 
+  },
+  {
+    "file": "austria_on_the_road.jpg",
+    "title": "On the road 🇦🇹",
+    "date": "2026-08-11",
+    "location": "Somewhere in Austria"
+  },
+  {
+    "file": "Austria_Toyota_Chiaretta.jpeg",
+    "title": "Dinner or biking? 🇦🇹",
+    "date": "2026-08-11",
+    "location": "Somewhere in Austria"
+  },
+  {
+    "file": "me_chiara_bike_austria.jpg",
+    "title": "More than 60km in a day for us! :)",
+    "date": "2026-08-13",
+    "location": "Near the Wortheresee, Austria"
+  },
+  {
+    "file": "me_exploring_austria.jpg",
+    "title": "Exploring 🌲🇦🇹",
+    "date": "2026-08-14",
+    "location": "Near the Wortheresee, Austria"
+  },
+  {
+    "file": "fixed_2026.jpg",
+    "title": "Testing gear ⚙️",
+    "date": "2026-08-02",
+    "location": "Home, Italy"
+  },
+  {
+    "file": "setup_sept2026.jpg",
+    "title": "Evening chilling",
+    "date": "2026-08-29",
+    "location": "Home, Italy"
+  }
 ]
