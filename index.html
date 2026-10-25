@@ -53,7 +53,7 @@
                     <h1 class="mb-0">
                         Alberto <span class="text-primary">Morini</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <div class="subheading mb-4">
                         Fullstack Developer | Analyst | Integration Specialist ~ <a
                             href="mailto:alberto@morini.dev">alberto@morini.dev</a>
 
@@ -64,15 +64,20 @@
                         <br>
                         <b>From analysis to development and delivery — I take care of the entire process, end to
                             end.</b>
-                        <br />
-                        <br />
+                    <div class="mt-4">
+                        <div class="d-flex flex-row flex-wrap align-items-center gap-2">
+                            <button type="button" class="btn btn-dark btn-lg px-2 py-2"
+                                data-cal-link="albertomorini/30min">
+                                <i class="far fa-clock me-2"></i> Book a 30-minute call
+                            </button>
 
-                        <i>I'm a freelancer based in Italy (Partita IVA)</i>
-
-                    <h3><a
-                            href="https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/docs/AlbertoMorini_CV.pdf">Download
-                            my CV (PDF)</a></h3>
-
+                            <button type="button" class="btn btn-outline-dark btn-lg px-2 py-2"
+                                data-cal-link="albertomorini/1h">
+                                <i class="far fa-clock me-2"></i> Book a 1-hour call
+                            </button>
+                        </div>
+                    </div>
+                    <br>
                     </p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://linkedin.com/in/alberto-morini-283847231"><i
@@ -80,10 +85,16 @@
                         <a class="social-icon" href="https://github.com/albertomorini"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="mailto:alberto@morini.dev"><i class="fa fa-envelope"></i></a>
                         <a class="social-icon" href="https://t.me/albertomorini"><i class="fab fa-telegram"></i></a>
-
+                        <b>
+                            <a
+                                href="https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/docs/AlbertoMorini_CV.pdf">Download
+                                my CV (PDF)</a>
+                        </b>
                     </div>
-                </div>
+
             </section>
+
+
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
@@ -437,6 +448,64 @@
                 }
             }
         </script>
+        <script>
+            (function (C, A, L) {
+                let p = function (a, ar) {
+                    a.q.push(ar);
+                };
+
+                let d = C.document;
+                C.Cal = C.Cal || function () {
+                    let cal = C.Cal;
+                    let ar = arguments;
+
+                    if (!cal.loaded) {
+                        cal.ns = {};
+                        cal.q = cal.q || [];
+                        d.head.appendChild(
+                            d.createElement("script")
+                        ).src = A;
+                        cal.loaded = true;
+                    }
+
+                    if (ar[0] === L) {
+                        const api = function () {
+                            p(api, arguments);
+                        };
+
+                        const namespace = ar[1];
+                        api.q = api.q || [];
+
+                        if (typeof namespace === "string") {
+                            cal.ns[namespace] = cal.ns[namespace] || api;
+                            p(cal.ns[namespace], ar);
+                            p(cal, ["initNamespace", namespace]);
+                        } else {
+                            p(cal, ar);
+                        }
+
+                        return;
+                    }
+
+                    p(cal, ar);
+                };
+            })(window, "https://app.cal.com/embed/embed.js", "init");
+
+            Cal("init", {
+                origin: "https://cal.com"
+            });
+
+            Cal("ui", {
+                styles: {
+                    branding: {
+                        brandColor: "#bd5d38"
+                    }
+                },
+                hideEventTypeDetails: false,
+                layout: "month_view"
+            });
+        </script>
+
     </body>
 
 </html>
