@@ -125,12 +125,7 @@
     "date": "2009-02-23",
     "location": "Vittorio Veneto, Italy"
   },
-  {
-    "file": "biking_2020.jpeg",
-    "title": "I'm biking",
-    "date": "2020-11-23",
-    "location": "Vittorio Veneto, Italy"
-  },
+ 
   {
     "file": "castello_vescovo_2021.jpeg",
     "title": "Castello del Vescovo w/ Mac Miller in the headphones",
@@ -382,5 +377,83 @@
     "title": "Evening chilling",
     "date": "2026-08-29",
     "location": "Home, Italy"
+  },
+  {
+    "file": "masterdegree_1.jpg",
+    "title": "Master Degree day",
+    "date": "2026-09-25",
+    "location": "Padua, Italy"
+  },
+  {
+    "file": "masterdegree_marco&mirco.jpg",
+    "title": "Master Degree w/ some friends",
+    "date": "2026-09-25",
+    "location": "Padua, Italy"
+  },
+  {
+    "file": "masterdegree_chiara.jpg",
+    "title": "Master Degree w/ Chiara",
+    "date": "2026-09-25",
+    "location": "Padua, Italy"
+  },
+  {
+    "file": "masterdegree_fam.jpg",
+    "title": "Master Degree w/ mom and dad",
+    "date": "2026-09-25",
+    "location": "Padua, Italy"
+  },
+  {
+    "file": "masterdegree_ok.jpg",
+    "title": "I'm a Doctor!",
+    "date": "2026-09-25",
+    "location": "Padua, Italy"
+  },
+  {
+    "file": "masterdegree_thx.jpg",
+    "title": "Master Degree thanks!",
+    "date": "2026-09-25",
+    "location": "Padua, Italy"
+  },
+  {
+    "file": "pizzoc27spet.jpg",
+    "title": "Chill morning",
+    "date": "2026-09-27",
+    "location": "Pizzoc, Italy"
+  },
+  {
+    "file": "berlin_1.jpg",
+    "title": "In Berlin with my fav person",
+    "date": "2026-10-06",
+    "location": "Berlin, Germany"
+  },
+  {
+    "file": "berlin_2.jpg",
+    "title": "In Berlin??",
+    "date": "2026-10-06",
+    "location": "Berlin, Germany"
+  },
+  {
+    "file": "berlin_chiaretta.jpg",
+    "title": "Chiara is happy",
+    "date": "2026-10-07",
+    "location": "Berlin, Germany"
+  },
+  {
+    "file": "berlin_us.jpg",
+    "title": "Cole where u at??",
+    "date": "2026-10-07",
+    "location": "Berlin, Germany"
+  },
+  {
+    "file": "berlin_fayette.jpg",
+    "title": "Two-six is wild",
+    "date": "2026-10-07",
+    "location": "Berlin, Germany"
+  },
+  {
+    "file": "berlin_cole.jpg",
+    "title": "Ayo Jermaine!",
+    "date": "2026-10-07",
+    "location": "Berlin, Germany"
   }
 ]
