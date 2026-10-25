@@ -1,3 +1,5 @@
+<!-- ALBERTO MORINI ON 25 OCT 2026 -->
+<!-- USE GITHUB SINCE PROVIDE 1GB OF STORAGE VS 10MB OF INFOMANIAK -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +9,8 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Alberto Morini</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+        <link rel="icon" type="image/x-icon"
+            href="https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/img/favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -24,7 +27,8 @@
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Alberto Morini</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                        src="assets/img/profile.jpg" alt="..." /></span>
+                        src="https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/img/profile.jpg"
+                        alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -57,7 +61,9 @@
                         <br>
                         From the analysis to the delivery, through the development.
                         <br>
-                    <h3><a href="/assets/docs/AlbertoMorini_CV.pdf">Download my CV (PDF)</a></h3>
+                    <h3><a
+                            href="https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/docs/AlbertoMorini_CV.pdf">Download
+                            my CV (PDF)</a></h3>
 
                     </p>
                     <div class="social-icons">
@@ -263,7 +269,7 @@
                             mongo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
                         };
 
-                        fetch('/assets/projects/projects.json')
+                        fetch('https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/projects/projects.json')
                             .then(res => res.json())
                             .then(projects => {
 
@@ -276,6 +282,9 @@
                                         `<img src="${langIconMap[l]}" title="${l}" class="lang-icon">`
                                     ).join("");
 
+                                    console.log(
+                                        "https://github.com/albertomorini/albertomorini.github.io/blob/main/assets/projects/${p.image}"
+                                    )
                                     card.innerHTML = `
                                         <h3>${p.title}</h3>
                                         <p>${p.description}</p>
@@ -287,14 +296,13 @@
                                         <a href="${p.link}" target="_blank">
                                             Open project →
                                         </a>
-
+                                        
                                         <img 
-                                            src="${p.image}" 
+                                            src="https://github.com/albertomorini/albertomorini.github.io/blob/main/assets/projects/${p.image}"
                                             alt="${p.title}"
                                             class="project-image"
                                         >
             `;
-
                                     track.appendChild(card);
                                 });
 
@@ -322,7 +330,8 @@
                     </div>
 
                     <script>
-                        fetch('./assets/uploads/images.json')
+
+                        fetch('https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/uploads/images.json')
                             .then(res => res.json())
                             .then(images => {
 
@@ -354,7 +363,7 @@
                                     card.className = 'card';
 
                                     card.innerHTML = `
-                                            <img src="./assets/uploads/${item.file}">
+                                            <img src="https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/uploads/${item.file}">
                                             <div class="card-content">
                                             <h3>${item.location}</h3>
                                             <p>${item.title}</p>
@@ -364,7 +373,7 @@
                                         `;
 
                                     card.onclick = () => {
-                                        showImage(`./assets/uploads/${item.file}`);
+                                        showImage(`https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/uploads/${item.file}`);
                                     };
 
                                     grid.appendChild(card);

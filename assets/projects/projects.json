@@ -8,7 +8,7 @@
             "python",
             "sql"
         ],
-        "image": "/assets/projects/geomedia.png",
+        "image": "geomedia.png",
         "link": "https://github.com/albertomorini/GeoMedia"
     },
     {
@@ -20,7 +20,7 @@
             "react",
             "mongo"
         ],
-        "image": "/assets/projects/Walletter.png",
+        "image": "Walletter.png",
         "link": "https://github.com/albertomorini/Walletter"
     },
     {
@@ -30,7 +30,7 @@
             "python",
             "youtube"
         ],
-        "image": "/assets/projects/utubepy.png",
+        "image": "utubepy.png",
         "link": "https://github.com/albertomorini/uTubePy"
     },
    
@@ -42,7 +42,7 @@
             "genius",
             "restapi"
         ],
-        "image": "/assets/projects/glyrics.gif",
+        "image": "glyrics.gif",
         "link": "https://github.com/albertomorini/glyrics"
     },
    
@@ -55,7 +55,7 @@
             "postgresql",
             "restapi"
         ],
-        "image": "/assets/projects/Byce.png",
+        "image": "Byce.png",
         "link": "https://github.com/albertomorini/Byce"
     },
     {
@@ -66,7 +66,7 @@
             "r",
             "csv"
         ],
-        "image": "/assets/projects/PoliceBrutality.png",
+        "image": "PoliceBrutality.png",
         "link": "https://github.com/albertomorini/policesViolence"
     }
 ]
