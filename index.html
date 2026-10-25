@@ -292,10 +292,6 @@
                                         `<img src="${langIconMap[l]}" title="${l}" class="lang-icon">`
                                     ).join("");
 
-                                    console.log(
-                                        p.image,
-                                        "https://github.com/albertomorini/albertomorini.github.io/blob/main/assets/projects/${p.image}"
-                                    )
                                     card.innerHTML = `
                                         <h3>${p.title}</h3>
                                         <p>${p.description}</p>
@@ -309,7 +305,7 @@
                                         </a>
                                         
                                         <img 
-                                            src="https://github.com/albertomorini/albertomorini.github.io/blob/main/assets/projects/${p.image}"
+                                            src="https://github.com/albertomorini/albertomorini.github.io/blob/main/assets/projects/"+p.image
                                             alt="${p.title}"
                                             class="project-image"
                                         >
@@ -368,7 +364,13 @@
                                     };
                                 }
 
-                                images.sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(item => {
+                                images.sort((a, b) => {
+                                    const dateDiff = new Date(b.date) - new Date(a.date);
+
+                                    if (dateDiff !== 0) return dateDiff;
+
+                                    return String(a.key ?? "").localeCompare(String(b.key ?? ""));
+                                }).forEach(item => {
 
                                     const card = document.createElement('div');
                                     card.className = 'card';
