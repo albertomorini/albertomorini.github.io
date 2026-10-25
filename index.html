@@ -291,6 +291,8 @@
                                     const langs = p.languages.map(l =>
                                         `<img src="${langIconMap[l]}" title="${l}" class="lang-icon">`
                                     ).join("");
+                                    console.log(p);
+
 
                                     card.innerHTML = `
                                         <h3>${p.title}</h3>
@@ -303,13 +305,8 @@
                                         <a href="${p.link}" target="_blank">
                                             Open project →
                                         </a>
-                                        
-                                        <img 
-                                            src="https://github.com/albertomorini/albertomorini.github.io/blob/main/assets/projects/"+p.image
-                                            alt="${p.title}"
-                                            class="project-image"
-                                        >
-            `;
+                                          <img src="https://raw.githubusercontent.com/albertomorini/albertomorini.github.io/main/assets/projects/${p.image}" class="project-image">
+                                    `;
                                     track.appendChild(card);
                                 });
 
@@ -369,7 +366,7 @@
 
                                     if (dateDiff !== 0) return dateDiff;
 
-                                    return String(a.key ?? "").localeCompare(String(b.key ?? ""));
+                                    return !String(a.key ?? "").localeCompare(String(b.key ?? ""));
                                 }).forEach(item => {
 
                                     const card = document.createElement('div');
